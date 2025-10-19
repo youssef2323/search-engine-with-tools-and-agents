@@ -7,17 +7,9 @@ Chat with Search is a Streamlit app that answers user questions by intelligently
 
 ## Screenshots
 
-### **Main Interface**
-![Main Interface](screenshots/01-home.png)
-*Caption: Streamlit app chat UI and sidebar.*
+![](Screenshots/1.png)
+![](Screenshots/2.png)
 
-### **Example Output**
-![Key Check](screenshots/02-key-check.png)
-![Agent Steps](screenshots/03-callbacks.png)
-![arXiv](screenshots/04-arxiv.png)
-![Wikipedia](screenshots/05-wikipedia.png)
-![Web Search](screenshots/06-search.png)
-*Caption: Key validation, agent steps, and tool results.*
 
 > Place images in a top-level `screenshots/` folder with simple names like `01-home.png`, `02-key-check.png`, etc.
 
@@ -25,7 +17,7 @@ Chat with Search is a Streamlit app that answers user questions by intelligently
 
 ## Features
 - Natural-language Q&A with automatic tool selection (web search, arXiv, Wikipedia).
-- Visible intermediate reasoning steps via Streamlit callback handler.
+- Visible intermediate steps via Streamlit callback handler.
 - Sidebar key entry with quick validation for `GROQ_API_KEY`.
 - Simple chat history stored in `st.session_state`.
 
@@ -47,7 +39,7 @@ Chat with Search is a Streamlit app that answers user questions by intelligently
 2. The LangChain agent decides which tool(s) to call (Search, arXiv, Wikipedia).
 3. Tool outputs are returned to the agent.
 4. The Groq LLM synthesizes a final, user-friendly answer.
-5. Intermediate steps (thoughts/actions) are rendered in the UI for transparency.
+5. Intermediate steps are rendered in the UI for transparency.
 
 ---
 
