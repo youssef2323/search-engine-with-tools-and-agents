@@ -11,7 +11,6 @@ Chat with Search is a Streamlit app that answers user questions by intelligently
 ![](Screenshots/2.png)
 
 
-> Place images in a top-level `screenshots/` folder with simple names like `01-home.png`, `02-key-check.png`, etc.
 
 ---
 
@@ -59,3 +58,4 @@ Chat with Search is a Streamlit app that answers user questions by intelligently
 
 ## License
 MIT
+
